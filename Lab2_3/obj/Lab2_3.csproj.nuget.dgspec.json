@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GITHUB\\lopCoTrang\\Lab2_3\\Lab2_3\\Lab2_3.csproj": {}
+    "D:\\GITHUB\\hocGithub\\cloneBTCoTrang\\Lab2_3\\Lab2_3\\Lab2_3.csproj": {}
   },
   "projects": {
-    "D:\\GITHUB\\lopCoTrang\\Lab2_3\\Lab2_3\\Lab2_3.csproj": {
+    "D:\\GITHUB\\hocGithub\\cloneBTCoTrang\\Lab2_3\\Lab2_3\\Lab2_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB\\lopCoTrang\\Lab2_3\\Lab2_3\\Lab2_3.csproj",
+        "projectUniqueName": "D:\\GITHUB\\hocGithub\\cloneBTCoTrang\\Lab2_3\\Lab2_3\\Lab2_3.csproj",
         "projectName": "Lab2_3",
-        "projectPath": "D:\\GITHUB\\lopCoTrang\\Lab2_3\\Lab2_3\\Lab2_3.csproj",
+        "projectPath": "D:\\GITHUB\\hocGithub\\cloneBTCoTrang\\Lab2_3\\Lab2_3\\Lab2_3.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB\\lopCoTrang\\Lab2_3\\Lab2_3\\obj\\",
+        "outputPath": "D:\\GITHUB\\hocGithub\\cloneBTCoTrang\\Lab2_3\\Lab2_3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
