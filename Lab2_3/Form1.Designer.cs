@@ -28,102 +28,125 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            txtA = new TextBox();
-            txtB = new TextBox();
-            txtKetQua = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtA = new System.Windows.Forms.TextBox();
+            this.txtB = new System.Windows.Forms.TextBox();
+            this.txtKetQua = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnNhan = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(41, 46);
-            label1.Name = "label1";
-            label1.Size = new Size(43, 23);
-            label1.TabIndex = 0;
-            label1.Text = "Số a";
-            label1.Click += label1_Click;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(32, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Số a";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(41, 106);
-            label2.Name = "label2";
-            label2.Size = new Size(44, 23);
-            label2.TabIndex = 1;
-            label2.Text = "Số b";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(32, 69);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(30, 15);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Số b";
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(41, 165);
-            label3.Name = "label3";
-            label3.Size = new Size(69, 23);
-            label3.TabIndex = 2;
-            label3.Text = "Kết quả";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(32, 108);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 15);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Kết quả";
             // 
             // txtA
             // 
-            txtA.Location = new Point(154, 39);
-            txtA.Name = "txtA";
-            txtA.Size = new Size(232, 30);
-            txtA.TabIndex = 3;
+            this.txtA.Location = new System.Drawing.Point(120, 25);
+            this.txtA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtA.Name = "txtA";
+            this.txtA.Size = new System.Drawing.Size(181, 23);
+            this.txtA.TabIndex = 3;
             // 
             // txtB
             // 
-            txtB.Location = new Point(154, 103);
-            txtB.Name = "txtB";
-            txtB.Size = new Size(232, 30);
-            txtB.TabIndex = 3;
+            this.txtB.Location = new System.Drawing.Point(120, 67);
+            this.txtB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtB.Name = "txtB";
+            this.txtB.Size = new System.Drawing.Size(181, 23);
+            this.txtB.TabIndex = 3;
             // 
             // txtKetQua
             // 
-            txtKetQua.Location = new Point(154, 162);
-            txtKetQua.Name = "txtKetQua";
-            txtKetQua.Size = new Size(232, 30);
-            txtKetQua.TabIndex = 3;
+            this.txtKetQua.Location = new System.Drawing.Point(120, 106);
+            this.txtKetQua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtKetQua.Name = "txtKetQua";
+            this.txtKetQua.Size = new System.Drawing.Size(181, 23);
+            this.txtKetQua.TabIndex = 3;
             // 
             // button1
             // 
-            button1.Location = new Point(292, 229);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 4;
-            button1.Text = "Cộng";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(247, 149);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(53, 25);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Cộng";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(192, 229);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 5;
-            button2.Text = "Trừ";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(190, 149);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(53, 25);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Trừ";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // btnNhan
+            // 
+            this.btnNhan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnNhan.Location = new System.Drawing.Point(133, 149);
+            this.btnNhan.Margin = new System.Windows.Forms.Padding(2);
+            this.btnNhan.Name = "btnNhan";
+            this.btnNhan.Size = new System.Drawing.Size(53, 25);
+            this.btnNhan.TabIndex = 6;
+            this.btnNhan.Text = "Nhân";
+            this.btnNhan.UseVisualStyleBackColor = true;
+            this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(9F, 23F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(430, 284);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(txtKetQua);
-            Controls.Add(txtB);
-            Controls.Add(txtA);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Name = "Form1";
-            Text = "Tính toán";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(334, 185);
+            this.Controls.Add(this.btnNhan);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtKetQua);
+            this.Controls.Add(this.txtB);
+            this.Controls.Add(this.txtA);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Form1";
+            this.Text = "Tính toán";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -136,5 +159,6 @@
         private TextBox txtKetQua;
         private Button button1;
         private Button button2;
+        private Button btnNhan;
     }
 }
